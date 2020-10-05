@@ -1,0 +1,22 @@
+{
+  "name": "leadvertex/plugin-component-directory-cleaner",
+  "description": "LeadVertex plugin directory cleaner command",
+  "type": "library",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Timur Kasumov aka XAKEPEHOK",
+      "email": "support@leadvertex.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Leadvertex\\Plugin\\Components\\DirectoryCleaner\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.1.0",
+    "symfony/console": "^5.0"
+  }
+}
